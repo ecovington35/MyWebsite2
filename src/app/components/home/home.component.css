@@ -16,6 +16,7 @@
   margin-top: 0px;
   color: black;
   text-decoration: none;
+  transition: all 0.5s ease;
 }
 
 .header a:hover {
@@ -178,6 +179,7 @@
   margin-top: 50px;
   height : 500px;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .map {
@@ -218,4 +220,32 @@
 
 .contact a:hover {
  color: lightgray
+}
+
+.social {
+  text-align: center;
+  color: white;
+  background-color: #6084A3;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  float: left;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.social h2 {
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+.social img {
+  width: auto;
+  height: 80px;
+  margin: 10px;
+  border-radius: 18px;
+}
+
+.social img:hover {
+  opacity: .95;
+  transform: scale(1.05, 1.05);
 }
