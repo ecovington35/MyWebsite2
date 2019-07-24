@@ -180,6 +180,15 @@
   cursor: default;
 }
 
+.me a {
+  color: white;
+}
+
+.me a:hover {
+ color: lightgray
+}
+
+
 .pic {
   background: url(src\assets\img\profile.JPG);
   float: right;
