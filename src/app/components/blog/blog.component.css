@@ -2,7 +2,7 @@
   overflow: hidden;
   top: 0;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-  background-color: rgb(255,255,255,.65)
+  background-color: rgb(255,255,255,.65);
 }
 
 .header a {
@@ -42,6 +42,7 @@
   margin-left: 0px;
 }
 
+
 .left{
   float: left;
   width: 40%;
@@ -63,17 +64,29 @@
   float: left;
 }
 
+.blog {
+  border-top: solid gray 2px;
+  text-align: center;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.blog h1 {
+  font-size: 45px;
+  font-weight: lighter;
+}
+
 .leftcolumn {
   float: left;
-  width: 650px;
+  width: 660px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-right: 20px;
+  margin-left: 0px;
   text-align: left;
 }
 
 .rightcolumn {
-  float: left;
-  width: 650px;
+  float: right;
+  width: 660px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: left;
 }
@@ -81,7 +94,7 @@
 
 .img {
   background-color: #aaa;
-  width: 100%;
+  width: 660px;
   height: 300px;
   margin: 0px;
   padding: 0px;
@@ -92,7 +105,7 @@
   padding: 20px;
   margin-top: 20px;
   margin-right: 20px;
-  margin-left:20px;
+  margin-left:0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 75px;
 }
