@@ -45,8 +45,6 @@
 .left{
   float: left;
   width: 40%;
-
-
 }
 
 .right {
@@ -67,6 +65,7 @@
   text-align: center;
   border-top: solid gray 2px;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  margin-bottom: 20px;
 }
 
 .main h1 {
@@ -79,7 +78,6 @@
   width: auto;
   margin-left: 20px;
   margin-top: 15px;
-
 }
 
 .main img.last {
