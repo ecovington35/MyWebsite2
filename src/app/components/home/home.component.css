@@ -116,7 +116,7 @@
   margin-right: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  margin-top: 70px;
+  margin-top: 40px;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   color: black;
   text-align: center;
@@ -155,6 +155,8 @@
 .profile {
   width: 100%;
   height: 700px;
+  margin-top: 30px;
+  margin-bottom: 30px
 }
 
 .me {
@@ -165,6 +167,8 @@
   float: left;
   Width: 49%;
   height: 700px;
+  margin-top: 30px;
+  margin-bottom: 70px
 }
 
 .me h2 {
@@ -195,13 +199,15 @@
   width: 49%;
   height: 700px;
   background-size: cover;
+  margin-top: 30px;
+  margin-bottom: 70px
 }
 
 .contacts {
-  margin-top: 20px;
-  height : 600px;
+  margin-top: 10px;
+  height : 400px;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .map {
@@ -210,7 +216,7 @@
   height: 500px;
   float: left;
   background-size: cover;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .contact {
@@ -220,7 +226,7 @@
   color: white;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
   height: 500px;
 }
 
