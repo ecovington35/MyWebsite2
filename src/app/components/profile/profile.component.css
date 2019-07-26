@@ -27,6 +27,10 @@
   border: 2px gray solid;
 }
 
+.header a:active {
+  transform: scale(.9, .9)
+}
+
 .header h3 {
   text-align: center;
   padding: 14px 16px;
@@ -70,6 +74,7 @@
   margin-right: 0px;
   margin-left: 0px;
   margin-bottom: 40px;
+
 }
 
 .me h1 {
@@ -84,6 +89,7 @@
   background: gray url();
   background-size: cover;
   margin-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .content {
@@ -120,3 +126,57 @@
   margin-top: 0px;
   margin-left: 20px;
 }
+
+.skill {
+  width: 70%;
+  padding: 0px;
+  border: solid gray 3px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.solid1 {
+  background-color: gray;
+  text-align: center;
+  width: 70%;
+  height: 20px;
+  margin: 0px;
+  border-radius: 3px;
+}
+
+.solid2 {
+  background-color: gray;
+  text-align: center;
+  width: 70%;
+  height: 20px;
+  margin: 0px;
+  border-radius: 3px;
+
+}
+
+.solid3 {
+  background-color: gray;
+  text-align: center;
+  width: 40%;
+  height: 20px;
+  margin: 0px;
+  border-radius: 3px;
+
+}
+
+.solid4 {
+  background-color: gray;
+  text-align: center;
+  width: 52%;
+  height: 20px;
+  margin: 0px;
+  border-radius: 3px;
+
+}
+
+.skill p {
+  margin: 0px;
+  color: white;
+}
+

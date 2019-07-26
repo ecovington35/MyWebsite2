@@ -28,6 +28,10 @@
   border: 2px gray solid;
 }
 
+.header a:active {
+  transform: scale(.9, .9)
+}
+
 .header h3 {
   text-align: center;
   padding: 14px 16px;
